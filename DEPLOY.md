@@ -62,6 +62,34 @@ operational discipline.
 
 ---
 
+## "Public repo" and "anonymous site" are compatible — with one condition
+
+Open source does not require your legal name. The repo can be fully public,
+fully auditable, and owned by an account with no connection to you. That
+satisfies the credibility argument completely: what has to be public is the
+**data**, not the **author**.
+
+What does *not* work is a public repo under an account that carries your name.
+The repository contains the site's source, so anyone looking at the live site
+can copy a distinctive phrase from it — for instance *"That is a standing rule,
+not a reaction to one bill"* — search GitHub code search, and find the repo in
+under a minute. From there, the account's other repositories and its owner are
+one click away.
+
+So the rule is simple:
+
+> Publish everything. Just not from an account that is you.
+
+Concretely, avoid:
+
+- Pushing to an account bearing your name, even to a public repo
+- Creating the new account while signed into the old one in the same browser
+  (use a different browser profile, or a private window, ideally over a VPN)
+- Reusing the email address, recovery phone, or SSH key from your main account
+- Starring, forking, following, or linking the project from your main account
+
+---
+
 ## Deployment options, ranked by how little they expose
 
 ### 1. Drag-and-drop upload (recommended)
