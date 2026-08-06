@@ -11,3 +11,4 @@ next-env.d.ts
 # The built database and generated JSON ARE committed so every rating is
 # auditable in git history.
 data/cache/
+on-the-record-site.zip
