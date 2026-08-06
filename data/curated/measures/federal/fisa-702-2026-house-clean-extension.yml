@@ -1,0 +1,42 @@
+slug: fisa-702-2026-house-clean-extension
+level: federal
+chamber: House
+congress: 119
+identifier: S4465
+rollnumber: 515
+clerk_rollnumber: 155
+date: 2026-04-30
+title: Clean extension of FISA Section 702, no reforms attached (S. 4465)
+question: On Motion to Suspend the Rules and Pass
+result: Passed
+yea_count: 261
+nay_count: 111
+description: >
+  House passage of S. 4465, extending the authorities of Title VII of FISA —
+  including Section 702 — with no reform provisions attached. Leadership brought
+  it up under suspension of the rules, which bars amendments, after a rule
+  providing for consideration of a reform vehicle (H.R. 8035) failed on the
+  floor two weeks earlier.
+
+  A "clean" extension means the warrantless query authority continues exactly as
+  it stood, with none of the warrant requirements that failed in 2024.
+
+pro_surveillance_position: yea
+significance: 3
+
+notes: >
+  Verified against the bill text rather than the title: "extend the authorities
+  of title VII" is an extension without reform, so a YEA vote continues
+  warrantless querying. Do not infer direction from the word "amend" in the
+  official title — it amends the 2008 FISA Amendments Act only to move the
+  sunset date.
+
+evidence:
+  url: https://clerk.house.gov/Votes/2026155
+  publisher: Office of the Clerk, U.S. House of Representatives
+  date_published: 2026-04-30
+  kind: roll_call
+  tier: 1
+  excerpt: >
+    Roll call 155, 119th Congress, 2nd session. On motion to suspend the rules
+    and pass S. 4465. Yeas 261, Nays 111. Passed.

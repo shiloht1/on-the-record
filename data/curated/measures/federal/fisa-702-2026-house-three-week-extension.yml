@@ -1,0 +1,40 @@
+slug: fisa-702-2026-house-three-week-extension
+level: federal
+chamber: House
+congress: 119
+identifier: HR9238
+rollnumber: 581
+clerk_rollnumber: 221
+date: 2026-06-11
+title: Three-week stopgap extension of FISA Section 702 (H.R. 9238)
+question: On Motion to Suspend the Rules and Pass
+result: Failed
+yea_count: 198
+nay_count: 218
+description: >
+  A stopgap bill extending Title VII FISA authorities to July 2, 2026, with no
+  reforms, brought up under suspension of the rules two days before the
+  authorities were set to lapse. It failed 198-218 — short of the two-thirds
+  required under suspension, and short of a simple majority as well. Section 702
+  authority lapsed on June 13, 2026.
+
+pro_surveillance_position: yea
+significance: 2
+
+notes: >
+  Another clean extension with no reform provisions, so a YEA vote continues
+  warrantless querying. Lower significance than the April vote because a
+  three-week stopgap is partly a procedural question about negotiating leverage;
+  some members who support reform voted no specifically to force a reform
+  package, and some who oppose reform voted no for unrelated reasons. Read
+  alongside the member's other votes rather than on its own.
+
+evidence:
+  url: https://clerk.house.gov/Votes/2026221
+  publisher: Office of the Clerk, U.S. House of Representatives
+  date_published: 2026-06-11
+  kind: roll_call
+  tier: 1
+  excerpt: >
+    Roll call 221, 119th Congress, 2nd session. On motion to suspend the rules
+    and pass H.R. 9238. Yeas 198, Nays 218. Failed.

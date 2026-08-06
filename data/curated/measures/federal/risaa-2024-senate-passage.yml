@@ -1,0 +1,32 @@
+slug: risaa-2024-senate-passage
+level: federal
+chamber: Senate
+congress: 118
+identifier: HR7888
+rollnumber: 502
+clerk_rollnumber: 150
+date: 2024-04-19
+title: Reforming Intelligence and Securing America Act (RISAA) — Senate passage
+question: On Passage of the Bill
+result: Passed
+yea_count: 60
+nay_count: 34
+description: >
+  Senate passage of H.R. 7888, reauthorizing Section 702 of FISA for two years.
+  The Senate rejected every reform amendment offered that day, including a
+  warrant requirement for U.S. person queries (42-50) and an amendment appending
+  the Fourth Amendment Is Not For Sale Act (31-61), before passing the bill
+  unamended. Signed into law April 20, 2024.
+
+pro_surveillance_position: yea
+significance: 3
+
+evidence:
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1182/vote_118_2_00150.htm
+  publisher: United States Senate
+  date_published: 2024-04-19
+  kind: roll_call
+  tier: 1
+  excerpt: >
+    Roll call vote 150, 118th Congress, 2nd session. On passage of H.R. 7888.
+    Yeas 60, Nays 34.

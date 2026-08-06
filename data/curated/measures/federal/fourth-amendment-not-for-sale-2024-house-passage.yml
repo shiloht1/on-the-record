@@ -1,0 +1,41 @@
+slug: fourth-amendment-not-for-sale-2024-house-passage
+level: federal
+chamber: House
+congress: 118
+identifier: HR4639
+rollnumber: 854
+clerk_rollnumber: 136
+date: 2024-04-17
+title: Fourth Amendment Is Not For Sale Act — House passage
+question: On Passage
+result: Passed
+yea_count: 219
+nay_count: 199
+description: >
+  Passage of H.R. 4639, barring federal law enforcement and intelligence
+  agencies from purchasing Americans' personal data from data brokers when they
+  would otherwise need a warrant, subpoena, or court order to obtain it.
+
+  This is the federal vote closest in substance to the commercial surveillance
+  market that Flock Safety, Axon, and the data-broker industry operate in: it
+  addresses the practice of buying data the government could not lawfully demand
+  outright. The bill passed the House but was not enacted.
+
+pro_surveillance_position: nay
+significance: 3
+
+notes: >
+  A YEA vote restricts government data purchases and is therefore
+  anti-surveillance. The bill's House passage was bipartisan, and the companion
+  Senate amendment (see risaa-2024-senate-append-fourth-amendment) failed
+  31-61, which is why the practice remains lawful.
+
+evidence:
+  url: https://clerk.house.gov/Votes/2024136
+  publisher: Office of the Clerk, U.S. House of Representatives
+  date_published: 2024-04-17
+  kind: roll_call
+  tier: 1
+  excerpt: >
+    Roll call 136, 118th Congress, 2nd session. On passage of H.R. 4639, Fourth
+    Amendment Is Not For Sale Act. Yeas 219, Nays 199. Passed.

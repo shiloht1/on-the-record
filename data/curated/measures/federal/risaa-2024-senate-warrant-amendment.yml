@@ -1,0 +1,35 @@
+slug: risaa-2024-senate-warrant-amendment
+level: federal
+chamber: Senate
+congress: 118
+identifier: HR7888
+rollnumber: 500
+clerk_rollnumber: 148
+date: 2024-04-19
+title: Prohibit warrantless access to Americans' communications (Senate amendment to RISAA)
+question: On the Amendment
+result: Amendment Rejected
+yea_count: 42
+nay_count: 50
+description: >
+  Amendment to H.R. 7888 prohibiting warrantless access to the communications
+  and other information of United States persons collected under Section 702.
+  Rejected 42-50. This is the Senate counterpart to the House Biggs amendment
+  and the clearest recorded Senate test of the warrant question.
+
+pro_surveillance_position: nay
+significance: 3
+
+notes: >
+  A YEA vote is a vote to require a warrant, i.e. anti-surveillance.
+
+evidence:
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1182/vote_118_2_00148.htm
+  publisher: United States Senate
+  date_published: 2024-04-19
+  kind: roll_call
+  tier: 1
+  excerpt: >
+    Roll call vote 148, 118th Congress, 2nd session. On the amendment to
+    prohibit warrantless access to the communications and other information of
+    United States persons. Yeas 42, Nays 50. Rejected.

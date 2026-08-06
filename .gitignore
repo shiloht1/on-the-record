@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+
+# Raw upstream downloads. Large, re-fetchable, and not the source of truth.
+# The built database and generated JSON ARE committed so every rating is
+# auditable in git history.
+data/cache/

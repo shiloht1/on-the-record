@@ -1,0 +1,35 @@
+slug: risaa-2024-senate-append-fourth-amendment
+level: federal
+chamber: Senate
+congress: 118
+identifier: HR7888
+rollnumber: 496
+clerk_rollnumber: 144
+date: 2024-04-19
+title: Append the Fourth Amendment Is Not For Sale Act (Senate amendment to RISAA)
+question: On the Amendment
+result: Amendment Rejected
+yea_count: 31
+nay_count: 61
+description: >
+  Amendment to attach the Fourth Amendment Is Not For Sale Act — already passed
+  by the House two days earlier — to the FISA reauthorization. Rejected 31-61.
+  Because this failed, federal agencies may still purchase from data brokers the
+  same personal information they would need a warrant to compel.
+
+pro_surveillance_position: nay
+significance: 2
+
+notes: >
+  Directly relevant to the commercial surveillance market. A YEA vote restricts
+  government purchase of Americans' data and is anti-surveillance.
+
+evidence:
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1182/vote_118_2_00144.htm
+  publisher: United States Senate
+  date_published: 2024-04-19
+  kind: roll_call
+  tier: 1
+  excerpt: >
+    Roll call vote 144, 118th Congress, 2nd session. On the amendment to append
+    the Fourth Amendment Is Not For Sale Act. Yeas 31, Nays 61. Rejected.

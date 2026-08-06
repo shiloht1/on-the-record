@@ -1,0 +1,39 @@
+slug: risaa-2024-house-biggs-warrant-amendment
+level: federal
+chamber: House
+congress: 118
+identifier: HR7888
+rollnumber: 832
+clerk_rollnumber: 114
+date: 2024-04-12
+title: Warrant requirement for searching Americans' communications (Biggs amendment to RISAA)
+question: On Agreeing to the Amendment
+result: Failed
+yea_count: 212
+nay_count: 212
+description: >
+  Amendment offered by Rep. Andy Biggs to H.R. 7888 requiring the government to
+  obtain a warrant before querying Section 702 data for the communications of
+  U.S. persons. Failed on a 212-212 tie — under House rules a tie defeats the
+  amendment, so the reauthorization proceeded without a warrant requirement.
+  This is the single most direct recorded federal test of whether a member
+  supports warrantless access to Americans' communications.
+
+pro_surveillance_position: nay
+significance: 3
+
+notes: >
+  A YEA vote here is a vote FOR requiring a warrant, i.e. against warrantless
+  surveillance. Scoring this the same direction as the passage vote would be
+  exactly backwards. The amendment drew support from across both parties, which
+  is why it is a high-signal vote rather than a party-line one.
+
+evidence:
+  url: https://clerk.house.gov/Votes/2024114
+  publisher: Office of the Clerk, U.S. House of Representatives
+  date_published: 2024-04-12
+  kind: roll_call
+  tier: 1
+  excerpt: >
+    Roll call 114, 118th Congress, 2nd session. On agreeing to the Biggs
+    amendment to H.R. 7888. Yeas 212, Nays 212. Failed.

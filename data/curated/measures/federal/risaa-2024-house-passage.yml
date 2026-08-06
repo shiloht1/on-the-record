@@ -1,0 +1,40 @@
+slug: risaa-2024-house-passage
+level: federal
+chamber: House
+congress: 118
+identifier: HR7888
+rollnumber: 837
+clerk_rollnumber: 119
+date: 2024-04-12
+title: Reforming Intelligence and Securing America Act (RISAA) — House passage
+question: On Passage
+result: Passed
+yea_count: 273
+nay_count: 147
+description: >
+  Passage of H.R. 7888, reauthorizing Section 702 of the Foreign Intelligence
+  Surveillance Act for two years. Despite the name, the bill passed without a
+  warrant requirement for querying Americans' communications, after the Biggs
+  amendment failed on a tie earlier the same day. It also broadened the
+  definition of "electronic communication service provider," which critics
+  argued swept in ordinary businesses that merely have access to communications
+  equipment.
+
+pro_surveillance_position: yea
+significance: 3
+
+notes: >
+  Paired with the Biggs amendment vote the same day. Members who voted for the
+  warrant requirement and then against final passage have a consistent
+  anti-warrantless-surveillance record; members who voted against the warrant
+  requirement and for passage have a consistent record the other way.
+
+evidence:
+  url: https://clerk.house.gov/Votes/2024119
+  publisher: Office of the Clerk, U.S. House of Representatives
+  date_published: 2024-04-12
+  kind: roll_call
+  tier: 1
+  excerpt: >
+    Roll call 119, 118th Congress, 2nd session. On passage of H.R. 7888,
+    Reforming Intelligence and Securing America Act. Yeas 273, Nays 147. Passed.

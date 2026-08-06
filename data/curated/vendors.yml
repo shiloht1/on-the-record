@@ -1,0 +1,213 @@
+# Surveillance vendors tracked by the platform.
+#
+# `parent` records acquisitions, because accountability follows ownership:
+# a Fusus real-time crime center is an Axon deployment as of February 2024, and
+# a Vigilant ALPR network is Motorola's. Agencies and press frequently still use
+# the acquired brand name, so both names must resolve to the same company page.
+#
+# Every claim on a vendor page needs evidence like everything else. Nothing here
+# asserts wrongdoing — it records who sells what.
+
+vendors:
+  - slug: flock-safety
+    name: Flock Safety
+    kind: vendor
+    hq: Atlanta, Georgia
+    website: https://www.flocksafety.com
+    tech: [alpr, video_surveillance, gunshot_detection, drone]
+    summary: >
+      The largest dedicated ALPR vendor in the United States, selling
+      pole-mounted plate readers to police departments, HOAs, and businesses,
+      with a nationwide cross-agency lookup network. The default target of most
+      local camera fights.
+
+  - slug: axon
+    name: Axon Enterprise
+    kind: vendor
+    ticker: AXON
+    hq: Scottsdale, Arizona
+    website: https://www.axon.com
+    tech: [body_camera, alpr, real_time_crime_center, drone, taser, ai_report_writing]
+    summary: >
+      TASERs, body cameras, the Evidence.com platform, Draft One AI report
+      writing, and — since acquiring Fusus in February 2024 — real-time crime
+      centers that fuse ALPR, gunshot detection, body cameras, drones, and
+      private camera feeds into a single view. Increasingly the vendor that
+      cities move to after dropping Flock, which means dropping Flock does not
+      by itself end camera surveillance.
+
+  - slug: fusus
+    name: Fusus
+    kind: subsidiary
+    parent: axon
+    tech: [real_time_crime_center]
+    summary: >
+      Real-time crime center platform, acquired by Axon in February 2024.
+      Deployed by 250+ agencies. Still widely referred to by its own name in
+      agency documents and press coverage.
+
+  - slug: motorola-solutions
+    name: Motorola Solutions
+    kind: vendor
+    ticker: MSI
+    hq: Chicago, Illinois
+    website: https://www.motorolasolutions.com
+    tech: [alpr, video_surveillance, face_recognition, dispatch]
+    summary: >
+      Enterprise public-safety vendor. Owns Vigilant Solutions and Digital
+      Recognition Network (commercial ALPR data), and Avigilon (video analytics).
+      Typically the incumbent where an agency wants everything integrated.
+
+  - slug: vigilant-solutions
+    name: Vigilant Solutions
+    kind: subsidiary
+    parent: motorola-solutions
+    tech: [alpr]
+    summary: >
+      ALPR network and commercial plate-scan database, now part of Motorola
+      Solutions. Its data-sharing arrangements between agencies were the subject
+      of the California State Auditor's ALPR review.
+
+  - slug: avigilon
+    name: Avigilon
+    kind: subsidiary
+    parent: motorola-solutions
+    tech: [video_surveillance, face_recognition]
+
+  - slug: soundthinking
+    name: SoundThinking
+    kind: vendor
+    ticker: SSTI
+    hq: Fremont, California
+    website: https://www.soundthinking.com
+    tech: [gunshot_detection, alpr, predictive_policing]
+    summary: >
+      Formerly ShotSpotter. Acoustic gunshot detection, plus the CrimeTracer and
+      ResourceRouter products. Contracts have been cancelled by several major
+      cities including Chicago following accuracy disputes.
+
+  - slug: clearview-ai
+    name: Clearview AI
+    kind: vendor
+    hq: New York, New York
+    tech: [face_recognition]
+    summary: >
+      Face recognition built on billions of images scraped from the public web
+      without consent. Subject of regulatory penalties in multiple countries.
+
+  - slug: palantir
+    name: Palantir Technologies
+    kind: vendor
+    ticker: PLTR
+    hq: Denver, Colorado
+    website: https://www.palantir.com
+    tech: [data_fusion, predictive_policing]
+    summary: >
+      Data integration and analysis platforms used by federal agencies including
+      ICE, and by some local police departments.
+
+  - slug: verkada
+    name: Verkada
+    kind: vendor
+    hq: San Mateo, California
+    tech: [video_surveillance, face_recognition, access_control]
+
+  - slug: rekor
+    name: Rekor Systems
+    kind: vendor
+    ticker: REKR
+    tech: [alpr]
+    summary: Highway and transit-scale ALPR, often via state DOT contracts.
+
+  - slug: genetec
+    name: Genetec
+    kind: vendor
+    hq: Montreal, Quebec
+    tech: [alpr, video_surveillance]
+    summary: AutoVu ALPR and Security Center video management.
+
+  - slug: cellebrite
+    name: Cellebrite
+    kind: vendor
+    ticker: CLBT
+    tech: [mobile_forensics]
+    summary: >
+      Mobile device extraction tools that pull data off seized phones. Widely
+      deployed at local agencies, frequently without a public procurement debate.
+
+  - slug: magnet-forensics
+    name: Magnet Forensics
+    kind: vendor
+    tech: [mobile_forensics, digital_forensics]
+    summary: >
+      Maker of Magnet AXIOM, digital forensics software for extracting and
+      analyzing data from phones, computers, and cloud accounts. Note for
+      readers who arrived searching for "Axiom": this is the product with that
+      name. It is distinct from Axon Enterprise, which is the camera and
+      real-time-crime-center vendor.
+
+  - slug: peregrine
+    name: Peregrine Technologies
+    kind: vendor
+    tech: [data_fusion]
+
+  - slug: skydio
+    name: Skydio
+    kind: vendor
+    tech: [drone]
+    summary: Autonomous drones, including drone-as-first-responder programs.
+
+  - slug: brinc
+    name: BRINC Drones
+    kind: vendor
+    tech: [drone]
+
+  - slug: ring
+    name: Ring (Amazon)
+    kind: vendor
+    parent: amazon
+    tech: [video_surveillance]
+    summary: >
+      Consumer doorbell cameras plus the Neighbors app, through which police
+      departments have requested footage from residents.
+
+  - slug: amazon
+    name: Amazon
+    kind: vendor
+    ticker: AMZN
+    tech: [video_surveillance, face_recognition, cloud]
+
+  - slug: lexisnexis-risk
+    name: LexisNexis Risk Solutions
+    kind: vendor
+    tech: [data_broker]
+    summary: Accurint and related products sold to law enforcement and ICE.
+
+  - slug: thomson-reuters-clear
+    name: Thomson Reuters (CLEAR)
+    kind: vendor
+    ticker: TRI
+    tech: [data_broker]
+
+  - slug: babel-street
+    name: Babel Street
+    kind: vendor
+    tech: [data_broker, location_data, osint]
+    summary: >
+      Location data and open-source intelligence, including the Locate X
+      product built on commercially purchased phone location data.
+
+  - slug: penlink
+    name: PenLink
+    kind: vendor
+    tech: [communications_intercept, osint]
+
+  - slug: shadowdragon
+    name: ShadowDragon
+    kind: vendor
+    tech: [osint]
+
+  - slug: axis-communications
+    name: Axis Communications
+    kind: vendor
+    tech: [video_surveillance]

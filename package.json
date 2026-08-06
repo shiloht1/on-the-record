@@ -1,0 +1,39 @@
+{
+  "name": "surveillance-accountability",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Public-record accountability for the surveillance contracting industry and the officials who fund it.",
+  "//": "Scripts invoke binaries by relative path rather than by name. This directory's name contains a colon, which is the PATH separator, so the node_modules/.bin entry npm prepends to PATH is split into two invalid paths and every bare command resolves to 'command not found'. Renaming the directory would let these revert to plain 'next dev' etc.",
+  "scripts": {
+    "dev": "./node_modules/.bin/next dev",
+    "build": "./node_modules/.bin/next build",
+    "start": "./node_modules/.bin/next start",
+    "typecheck": "./node_modules/.bin/tsc --noEmit",
+    "data:fetch": "./node_modules/.bin/tsx pipeline/fetch.ts",
+    "data:build": "./node_modules/.bin/tsx pipeline/build.ts",
+    "data:verify": "./node_modules/.bin/tsx pipeline/verify.ts",
+    "data:emit": "./node_modules/.bin/tsx pipeline/emit.ts",
+    "data:all": "npm run data:fetch && npm run data:build && npm run data:verify && npm run data:emit",
+    "test": "./node_modules/.bin/tsx --test pipeline/*.test.ts"
+  },
+  "dependencies": {
+    "next": "^15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.10.7",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "better-sqlite3": "^11.8.1",
+    "csv-parse": "^5.6.0",
+    "js-yaml": "^4.1.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
