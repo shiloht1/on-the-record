@@ -12,6 +12,11 @@ const nextConfig = {
   basePath,
   assetPrefix: basePath || undefined,
 
+  // basePath rewrites <Link> and <Image>, but NOT fetch() calls in our own
+  // code. Anything we fetch by absolute path has to prepend this itself or it
+  // 404s on a subpath deployment. See lib/geocode.ts.
+  env: { NEXT_PUBLIC_BASE_PATH: basePath },
+
   // Fully static export. There is no server, therefore there is no server that
   // could log a visitor's address even by accident. See lib/geocode.ts.
   output: 'export',

@@ -179,7 +179,11 @@ export async function lookupZip(input: string): Promise<ZipResult> {
   const zip = input.trim().slice(0, 5)
 
   if (!zipTable) {
-    const res = await fetch('/data/zip-districts.json')
+    // Must carry the basePath explicitly. Next rewrites <Link> and <Image> for
+    // a subpath deployment but leaves fetch() alone, so a bare '/data/...'
+    // silently 404s once the site is served from a subdirectory.
+    const base = process.env.NEXT_PUBLIC_BASE_PATH ?? ''
+    const res = await fetch(`${base}/data/zip-districts.json`)
     if (!res.ok) throw new Error('Could not load ZIP data.')
     zipTable = (await res.json()) as Record<string, string>
   }
